@@ -5,7 +5,7 @@ import smtplib
 from os import system
 
 def main():
-   print '================================================='
+   (print '================================================='
    print '               create by Ha3MrX                  '
    print '================================================='
    print '               ++++++++++++++++++++              '
@@ -37,7 +37,7 @@ def main():
 
 main()
 print '[1] start the attack'
-print '[2] exit'
+print) '[2] exit'
 option = input('==>')
 if option == 1:
    file_path = raw_input('path of passwords file :')
